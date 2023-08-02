@@ -1,0 +1,7 @@
+name: EternalGalaxy
+version: '${project.version}'
+main: me.cyh2.eternalgalaxy.EternalGalaxy
+api-version: 1.19
+commands:
+  rocket:
+
