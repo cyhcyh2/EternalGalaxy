@@ -19,6 +19,7 @@ public class cre implements Listener {
             ItemMeta em = ei.getItemMeta();
             if (ei != null && ei.getType() == Material.CLOCK && em.hasDisplayName() && em.getLore().equals(Ritem.getItemMeta().getLore())) {
                 event.getPlayer().openInventory(SpaceGui);
+                String s = "hi";
                 event.setCancelled(true);
             }
         }
